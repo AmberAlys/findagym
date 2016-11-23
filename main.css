@@ -1,19 +1,36 @@
 
+/*body {
+  background: url("chalk.jpg") no-repeat center center fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto
+}*/
+
 html {
-  background: url(back.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-image: url('chalk.jpg');
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-size:100%;
+  }
+
+nav {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.7);
+  top: 0;
+  left: 0;
+  right:0;
+  padding: 16px;
 }
 
-div {
+/*div {
     position: relative;
-}
-
-body {
-  background-image: url("chalk.jpg");
-}
+}*/
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
